@@ -100,6 +100,10 @@ body{
 }
 /* partners section */
 
+.products{
+    margin : 150px 0px;
+}
+
 .products .product-title{
     margin-left: 330px;
     color: #2D25A0;
