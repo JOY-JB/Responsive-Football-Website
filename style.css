@@ -24,7 +24,7 @@ body{
 }
 .banner{
     background-color: #2D25A0;
-    width: 100vw;
+    width: 98.7vw;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -74,3 +74,79 @@ body{
     animation: banner_image ease-in-out 1s 1 running ;
 }
 
+
+/* blog section of main content  */
+
+.all-blog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    padding: 70px 150px;
+}
+.blog{
+    width: 330px;
+    height: 474px;
+    background: #FFFFFF;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.blog-title h1{
+    font-size: 28px;
+}
+
+.blog-image img{
+    width: 100%;
+}
+/* partners section */
+
+.product-catagory{
+    display: flex;
+}
+.products h1{
+    text-align: center;
+    color: #2D25A0;
+}
+.product{
+    padding: 50px 50px 0px 50px;
+}
+.next-match{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 450px;
+    font-size:larger;
+    background-color: #2D25A0;
+    color: white;
+    border-radius: 10px;
+
+}
+
+
+
+/* ----- footer section ------*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.all-footer{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 382px;
+}
+.footer-logo img {
+    width: 100%;
+}
+.footer-icon i{
+    padding: 5px;
+    border-radius: 50%;
+    color: #10437A;
+    background-color: #b3b9cc;
+}
